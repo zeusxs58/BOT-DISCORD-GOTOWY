@@ -1,0 +1,47 @@
+EnableWelcomeMessages: true
+EnableLeaveMessages: false
+
+WelcomeChannel: "1428651536145186927"
+LeaveChannel: "1265474418063314954"
+
+MessageType: 1 # 1 = Embed Message, 2 = Normal Message
+
+# Variables
+# {user-name} - Username without # and ping, Example
+# {user} - User ping, @Example
+# {user-tag} - User tag, Example#0000
+# {user-createdAt} - User account creation date, for example: 06/15/2024
+# {user-joinedAt} - User server join date, (ONLY WORKS IN LEAVE EMBED)
+# {memberCount} - Server member count
+# {guildName} - Server name
+
+WelcomeNormalMessage: "{user} has joined the server!" # Only change this if MessageType is 2
+LeaveNormalMessage: "{user} has left the server!" # Only change this if MessageType is 2
+
+# Only change this if MessageType is 1
+Embeds:
+  JoinEmbed:
+    Title: "```🎇 LV SHOP × WITAMY```"
+    Description: "・ ``👤``**× Witaj {user} na LV Shop**\n \n・ ``👥``**× Jesteś {memberCount} na naszym serwerze!**\n ``✨`` **× Liczymy, że zostaniesz z nami na dłużej!**"
+    Color: "#b3b3b3"
+    Image: "https://cdn.discordapp.com/attachments/1428588968538148931/1428642398287695882/Nowaosoba.gif?ex=68f33e6a&is=68f1ecea&hm=6430f75dab5ebd56b5428edc6816ef18f435908cf130efdcb57828c8ec67d575&"  # pełny https URL
+    UserIconThumbnail: true
+    Timestamp: true
+    Footer:
+      Enabled: true
+      UserIcon: true
+      text: "{user-tag}"
+
+
+  LeaveEmbed:
+    Title: "**{user-tag} | has left!**"
+    Description: "**Joined on: {user-joinedAt}**" # You can use \n for new lines
+    Color: "#ff4d64"  # Hex color code
+    Image: "https://cdn.discordapp.com/attachments/1373346858121826369/1374781695370199100/standard_2.gif?ex=682f4cba&is=682dfb3a&hm=876ae3e5236c02ace864ba3c10ed82fe688d75561b7318a247102cdc086aa9ee&" # Recommended Size: 450x103, leave blank to disable
+    UserIconThumbnail: true # Enable user avatar in the thumbnail?
+    Timestamp: true
+    UserRoles: true # Display all the roles the user had?
+    Footer:
+      Enabled: true
+      UserIcon: true # Enable user avatar in the footer?
+      text: "{user-tag}"

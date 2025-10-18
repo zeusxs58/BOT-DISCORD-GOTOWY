@@ -1,0 +1,780 @@
+Token: "" # Your Bot's Token
+BotName: "" # Your Bot's Name
+GuildID: "" # Your Discord Server ID
+EmbedColors: "#5e99ff"
+LogCommands: false
+Statistics: false
+MongoURI: "" # MongoDB connection string
+             # Example: mongodb+srv://username:
+DebugMode: false
+
+BotActivitySettings:
+  Enabled: true
+  ActivityType: "WATCHING"
+  Status: "DND"
+  Interval: 30
+  Statuses:
+    - "{total-tickets} tickets"
+    - "{total-users} users"
+    - "{total-messages} messages"
+
+TicketPanelSettings:
+  Embed:
+    Title: "```🎇 × STWÓRZ TICKET```"
+    Description: "``📩`` **× Wybierz odpowiednią kategorię, aby utworzyć ticketa!**"
+    Color: "#a3a3a3"
+    PanelImage: "https://cdn.discordapp.com/attachments/1350578221803896916/1428376928343162890/Stworzticetk.gif?ex=68f2472d&is=68f0f5ad&hm=ceb9af491b5be3222372372d680ea2e208241fb053cb174e5c49033c210e704a&"
+    CustomThumbnailURL: ""
+    Timestamp: false
+    Footer:
+      Enabled: true
+      CustomIconURL: "https://cdn.discordapp.com/attachments/1341626525476327454/1428433672784056350/logoLVSHOP.gif?ex=68f27c06&is=68f12a86&hm=46abd7a4569c27d62bad8c58f5f0b9b7da1e10fbc834d17aaf06d2e26e7add26&"
+      text: ""
+
+TicketSettings:
+  LogsChannelID: "1347328094033150143"
+  BlacklistedRoles: [""]
+  MentionAuthor: false
+  MaxTickets: 1
+  DeleteTime: 5
+  RestrictTicketClose: true
+  TicketCooldown: 0
+  SelectMenu: true
+  DeleteCommandTranscript: true
+  ChannelTopic: "Creator: {username} | Category: {category}"
+  TicketCloseReason: false
+
+TicketTranscriptSettings:
+  TranscriptType: "TXT"
+  SaveInFolder: false
+  SaveImages: false
+  MessagesRequirement: 1
+
+ClaimingSystem:
+  Enabled: true
+  UserPerms:
+    ViewChannel: true
+    SendMessages: true
+
+TicketAlert:
+  Enabled: true
+  Time: "12h"
+  DMUser: false
+  DMMessage: "## ⏳ Ticket Inactivity Warning \n Your ticket in ``{server}`` has been inactive for ``{inactive-time}`` and will be automatically closed in **{time}** if no response is received. \n\n If you respond to the ticket, the automatic closure will be canceled."
+  Message: "## ⏳ Ticket Inactivity Warning \n This ticket has been inactive for ``{inactive-time}`` and will be automatically closed in **{time}** if no response is received. \n\n If you respond to this ticket, the automatic closure will be canceled. \n\n Alternatively, you can press the button below to instantly close the ticket."
+  AutoAlert:
+    Enabled: false
+    InactiveTime: "3d"
+
+WorkingHours:
+  Enabled: false
+  Timezone: "America/New_York"
+  Schedule:
+    Monday: "07:00-16:00"
+    Tuesday: "07:00-16:00"
+    Wednesday: "07:00-16:00"
+    Thursday: "07:00-16:00"
+    Friday: "07:00-16:00"
+    Saturday: "07:00-16:00"
+    Sunday: "07:00-16:00"
+  AllowTicketsOutsideWorkingHours: false
+  SendNoticeInTicket: false
+  outsideWorkingHoursTitle: "Outside Working Hours"
+  outsideWorkingHours: "You can only create tickets during the working hours!\n\nFull schedule:\nMonday: {startTime-Monday} to {endTime-Monday}\nTuesday: {startTime-Tuesday} to {endTime-Tuesday}\nWednesday: {startTime-Wednesday} to {endTime-Wednesday}\nThursday: {startTime-Thursday} to {endTime-Thursday}\nFriday: {startTime-Friday} to {endTime-Friday}\nSaturday: {startTime-Saturday} to {endTime-Saturday}\nSunday: {startTime-Sunday} to {endTime-Sunday}"
+  outsideWorkingHoursMsg: "You've created a ticket outside of our working hours, so please be aware that our response time may be slightly delayed. {startTime-currentDay} to {endTime-currentDay}"
+
+TicketOverload:
+  Enabled: true
+  Threshold: 10
+  WarningMessage: "## ⚠️ High ticket volume detected! \n Due to a large number of currently open tickets, response times may be longer than usual. \n We appreciate your patience and will assist you as soon as possible! \n Thank you for understanding."
+
+InactivityMonitor:
+  Enabled: false
+  CheckInterval: 1h
+  UnrespondedDuration: 24h
+  LogChannel: "1347328094033150143"
+  RolesToPing: ["1341621666949763143", "ROLE_ID"]
+  LogMessage: |
+    ## ⚠️ Inactivity Warning
+    - **Ticket:** [Click here]({ticketLink}) ({channel})
+    - **Created:** {ticketCreationDate}
+    - **Unanswered for:** {unrespondedDuration}
+
+    This ticket has been waiting for a staff response for an extended period, and the user may be experiencing delays. Please prioritize addressing this ticket to improve the user experience.
+
+userAdd:
+  Enabled: true
+  ChannelID: "1347328094033150143"
+
+userRemove:
+  Enabled: true
+  ChannelID: "1347328094033150143"
+
+renameTicket:
+  Enabled: true
+  ChannelID: "1347328094033150143"
+
+ticketClose:
+  Enabled: true
+  ChannelID: "1347328094033150143"
+
+paypalInvoice:
+  Enabled: true
+  ChannelID: ""
+
+cryptoPayments:
+  Enabled: true
+  ChannelID: ""
+
+stripeInvoice:
+  Enabled: true
+  ChannelID: ""
+
+claimTicket:
+  Enabled: true
+  ChannelID: "1347328094033150143"
+
+unclaimTicket:
+  Enabled: true
+  ChannelID: "1347328094033150143"
+
+deleteTicket:
+  Enabled: true
+  ChannelID: "1347328094033150143"
+
+TicketOpenEmbed:
+  EmbedColor: ""
+  FooterMsg: ""
+  FooterIcon: ""
+  Timestamp: true
+  UserIconThumbnail: true
+  UserIconAuthor: true
+
+TicketButton1:
+  TicketName: "×Zamówienie"
+  Description: "Kliknij, aby zamówić produkt."
+  TicketCategoryID: "1347339804420866108"
+  TicketMessageTitle: "({category})"
+  TicketMessage: ">"
+  ButtonEmoji: "<a:1404829761871810682:1428374305934147704>"
+  ButtonColor: "Green"
+  SupportRoles: ["1341621666949763143"]
+  MentionSupportRoles: false
+  ChannelName: "Zakup-ticket-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp"
+      required: false
+      minLength: 0
+      question: "× PRODUKT"
+      placeholder: "Wpisz nazwę produktu"
+      style: "Short"
+    - customId: "botVersion"
+      required: true
+      minLength: 0
+      question: "× ILOŚĆ"
+      placeholder: "Wpisz ilość którą chcesz zamówić"
+      style: "Short"
+    - customId: "testQuestion"
+      required: true
+      minLength: 0
+      question: "× METODA PŁATNOŚCI"
+      placeholder: "Wpisz metodę płatności"
+      style: "Short"
+
+TicketButton2:
+  Enabled: true
+  TicketName: "×Pomoc"
+  Description: "Kliknij, aby uzyskać pomoc."
+  TicketCategoryID: "1347339804420866108"
+  TicketMessageTitle: "Pomoc ({category})"
+  TicketMessage: "> <:support:1428559635182518292> **Dziękujemy za kontakt z pomocą techniczną.**"
+  ButtonEmoji: "<a:alert:1375860086479523951> "
+  ButtonColor: "Red"
+  SupportRoles: ["1341621666949763143"]
+  MentionSupportRoles: false
+  ChannelName: "Reklamacja-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp2"
+      required: true
+      minLength: 0
+      question: "W CZYM MOŻEMY POMÓC ? "
+      placeholder: "mam problem z nit0"
+      style: "Paragraph"
+
+TicketButton3:
+  Enabled: false
+  TicketName: "Example 3"
+  Description: ""
+  TicketCategoryID: "1347339804420866108"
+  TicketMessageTitle: "Support Ticket ({category})"
+  TicketMessage: "> Thank you for contacting support.\n> Please describe your issue and await a response."
+  ButtonEmoji: "<a:alert:1375860086479523951> "
+  ButtonColor: "Gray"
+  SupportRoles: ["1341621666949763143"]
+  MentionSupportRoles: false
+  ChannelName: "ticket-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp3"
+      required: true
+      minLength: 10
+      question: "What do you need help with?"
+      placeholder: "Describe what you need help with"
+      style: "Short"
+
+TicketButton4:
+  Enabled: false
+  TicketName: "Example 4"
+  Description: ""
+  TicketCategoryID: "1347339804420866108"
+  TicketMessageTitle: "Support Ticket ({category})"
+  TicketMessage: "> Thank you for contacting support.\n> Please describe your issue and await a response."
+  ButtonEmoji: ""
+  ButtonColor: "Gray"
+  SupportRoles: ["1341621666949763143"]
+  MentionSupportRoles: false
+  ChannelName: "ticket-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp4"
+      required: true
+      minLength: 20
+      question: "What do you need help with?"
+      placeholder: "Describe what you need help with"
+      style: "Short"
+
+TicketButton5:
+  Enabled: false
+  TicketName: "Example 5"
+  Description: ""
+  TicketCategoryID: "1347339804420866108"
+  TicketMessageTitle: "Support Ticket ({category})"
+  TicketMessage: "> Thank you for contacting support.\n> Please describe your issue and await a response., 9117"
+  ButtonEmoji: ""
+  ButtonColor: "Gray"
+  SupportRoles: ["1341621666949763143"]
+  MentionSupportRoles: false
+  ChannelName: "ticket-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp5"
+      required: true
+      minLength: 20
+      question: "What do you need help with?"
+      placeholder: "Describe what you need help with"
+      style: "Short"
+
+TicketButton6:
+  Enabled: false
+  TicketName: "Example 6"
+  Description: ""
+  TicketCategoryID: "CATEGORY_ID"
+  TicketMessageTitle: "Support Ticket ({category})"
+  TicketMessage: "> Thank you for contacting support.\n> Please describe your issue and await a response."
+  ButtonEmoji: ""
+  ButtonColor: "Gray"
+  SupportRoles: ["ROLE_ID"]
+  MentionSupportRoles: false
+  ChannelName: "ticket-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp6"
+      required: true
+      minLength: 20
+      question: "What do you need help with?"
+      placeholder: "Describe what you need help with"
+      style: "Short"
+
+TicketButton7:
+  Enabled: false
+  TicketName: "Example 7"
+  Description: ""
+  TicketCategoryID: "CATEGORY_ID"
+  TicketMessageTitle: "Support Ticket ({category})"
+  TicketMessage: "> Thank you for contacting support.\n> Please describe your issue and await a response."
+  ButtonEmoji: ""
+  ButtonColor: "Gray"
+  SupportRoles: ["ROLE_ID"]
+  MentionSupportRoles: false
+  ChannelName: "ticket-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp7"
+      required: true
+      minLength: 20
+      question: "What do you need help with?"
+      placeholder: "Describe what you need help with"
+      style: "Short"
+
+TicketButton8:
+  Enabled: false
+  TicketName: "Example 8"
+  Description: ""
+  TicketCategoryID: "CATEGORY_ID"
+  TicketMessageTitle: "Support Ticket ({category})"
+  TicketMessage: "> Thank you for contacting support.\n> Please describe your issue and await a response."
+  ButtonEmoji: ""
+  ButtonColor: "Gray"
+  SupportRoles: ["ROLE_ID"]
+  MentionSupportRoles: false
+  ChannelName: "ticket-{username}"
+  RequiredRoles: []
+  Questions:
+    - customId: "needHelp8"
+      required: true
+      minLength: 20
+      question: "What do you need help with?"
+      placeholder: "Describe what you need help with"
+      style: "Short"
+
+PrioritySettings:
+  Enabled: false
+  Levels:
+    - priority: High
+      rolesToMention: ["ROLE_ID", "ROLE_ID"]
+      moveToTop: true
+      channelName: "🔴"
+    - priority: Medium
+      rolesToMention: ["ROLE_ID", "ROLE_ID"]
+      moveToTop: true
+      channelName: "🟠"
+    - priority: Low
+      rolesToMention: ["ROLE_ID", "ROLE_ID"]
+      moveToTop: true
+      channelName: "🟢"
+
+PriorityRoles:
+  Enabled: false
+  Roles:
+    - RoleID: "ROLE_ID"
+      PriorityLevel: High
+    - RoleID: "ROLE_ID"
+      PriorityLevel: Medium
+
+TicketUserCloseDM:
+  Enabled: true
+  SendTranscript: false
+  TicketInformation: true
+  CloseEmbedMsg: "> Your ticket has been closed in ``{guildName}``\n> Reason: ``{close-reason}``"
+
+TicketReviewSettings:
+  Enabled: true
+  AskWhyModal: true
+  CloseEmbedReviewMsg: "> Your ticket has been closed in ``{guildName}``\n> Reason: ``{close-reason}``\n\n> We value your feedback and would appreciate your rating of our support.\n> Please take a moment to share your satisfaction level by choosing a rating between **1-5** stars below. Your input is valuable to us!"
+  ticketRated: "> You rated this ticket: {star} ({rating}/5)"
+  ticketReviewed: "> You rated this ticket: {star} ({rating}/5)\n> Your Review: {reviewMessage}"
+  ReviewMsg: "Thank you for leaving a review!"
+  MinimumWords: 20
+  MaximumWords: 250
+
+TicketReviewRequirements:
+  Enabled: false
+  TotalMessages: 5
+
+ReviewChannel:
+  Enabled: true
+  ChannelID: "1428561606240899172"
+  Embed:
+    Title: "<:ticket:1374838567863586926> | New Ticket Review (#{totalReviews})"
+    Color: "#7aeb34"
+    ThumbnailEnabled: true
+    CustomThumbnail: ""
+    Fields:
+      - name: "```• Ticket Information```"
+        value: "> **Creator:** <@!{ticketCreator.id}> ({ticketCreator.username})\n> Category: {ticketCategory}\n> Total Messages: {ticket.totalMessages}"
+      - name: "• Ticket Review"
+        value: "> {stars}\n> {reviewMessage}"
+    Timestamp: true
+    Footer:
+      Enabled: true
+      IconEnabled: true
+      CustomIconURL: ""
+      text: "{ticketCreator.username}"
+
+PayPalSettings:
+  Enabled: false
+  PayPalSecretKey: "PAYPAL_SECRET_KEY"
+  PayPalClientID: "PAYPAL_CLIENT_ID"
+  AllowedRoles: ["ROLE_ID"]
+  Email: "EMAIL"
+  Currency: "USD"
+  CurrencySymbol: "$"
+  OnlyInTicketChannels: false
+  Description: "Terms of Service: https://plexdevelopment.net/tos"
+  Logo: ""
+  RoleToGive: ""
+  StatusUnpaid: "UNPAID"
+  StatusPaid: "PAID"
+  Embed:
+    Title: "PayPal Invoice"
+    Color: "#5e99ff"
+    ThumbnailEnabled: true
+    CustomThumbnail: "https://www.freepnglogos.com/uploads/paypal-logo-png-7.png"
+    Description: "Please click the button below to pay!"
+    Fields:
+      - name: "• Information"
+        value: "> Seller: {seller}\n> User: {user}\n> Price: {price}"
+      - name: "• Service"
+        value: "```{service}```"
+    Timestamp: true
+    Footer:
+      Enabled: true
+      IconEnabled: true
+      CustomIconURL: ""
+      text: "{user.username}"
+
+StripeSettings:
+  Enabled: false
+  StripeSecretKey: "SECRET_KEY"
+  AllowedRoles: ["ROLE_ID"]
+  Currency: "USD"
+  CurrencySymbol: "$"
+  OnlyInTicketChannels: false
+  RoleToGive: ""
+  PaymentMethods:
+    - card
+  StatusUnpaid: "UNPAID"
+  StatusPaid: "PAID"
+  Embed:
+    Title: "Stripe Invoice"
+    Color: "#5e99ff"
+    ThumbnailEnabled: true
+    CustomThumbnail: "https://assets.website-files.com/60d5e12b5c772dbf7315804e/6127ddadabd8205a78c21a42_sq.png"
+    Description: "Please click the button below to pay!"
+    Fields:
+      - name: "• Information"
+        value: "> Seller: {seller}\n> User: {user}\n> Price: {price}"
+      - name: "• Service"
+        value: "```{service}```"
+    Timestamp: true
+    Footer:
+      Enabled: true
+      IconEnabled: true
+      CustomIconURL: ""
+      text: "{user.username}"
+
+CryptoSettings:
+  Enabled: false
+  AllowedRoles: ["ROLE_ID"]
+  Currency: "USD"
+  CurrencySymbol: "$"
+  OnlyInTicketChannels: false
+  Embed:
+    Title: "Crypto Payment ({currency})"
+    Color: "#5e99ff"
+    ThumbnailEnabled: true
+    CustomThumbnail: "https://i.imgur.com/ASvkLsG.png"
+    Description: "Scan the QR Code below or pay to the below address with the exact amount"
+    Fields:
+      - name: "• Information"
+        value: "> Seller: {seller}\n> User: {user}\n> Price: {price}\n> Address: {address}"
+      - name: "• Service"
+        value: "```{service}```"
+    Timestamp: true
+    Footer:
+      Enabled: true
+      IconEnabled: true
+      CustomIconURL: ""
+      text: "{user.username}"
+
+CryptoRates:
+  binance: false
+  bitfinex: false
+  coinbase: true
+  kraken: false
+
+CryptoAddresses:
+  BTC: ""
+  ETH: ""
+  USDT: ""
+  LTC: ""
+
+SuggestionSettings:
+  Enabled: true
+  ChannelID: "CHANNEL_ID"
+  EnableAcceptDenySystem: true
+  RemoveAllButtonsIfAcceptedOrDenied: true
+  AllowedRoles: ["ROLE_ID"]
+  LogsChannel: "CHANNEL_ID"
+  CreateThreads: true
+
+SuggestionStatuses:
+  Pending: "🟠 Pending"
+  Accepted: "🟢 Accepted"
+  Denied: "🔴 Denied"
+
+SuggestionStatusesEmbedColors:
+  Pending: "#5e99ff"
+  Accepted: "#2ECC71"
+  Denied: "#E74C3C"
+
+SuggestionUpvote:
+  ButtonName: "Upvote"
+  ButtonEmoji: "⬆️"
+  ButtonColor: "Gray"
+
+SuggestionDownvote:
+  ButtonName: "Downvote"
+  ButtonEmoji: "⬇️"
+  ButtonColor: "Gray"
+
+SuggestionResetvote:
+  ButtonName: "Reset Vote"
+  ButtonEmoji: "🗑️"
+  ButtonColor: "Gray"
+
+SuggestionAccept:
+  Emoji: "🟢"
+
+SuggestionDeny:
+  Emoji: "🔴"
+
+CommandsEnabled: false
+OnlyInTickets: false
+CommandsPrefix: "t!"
+CustomCommands:
+  - command: "test1"
+    response: "This is a test!"
+    Embed: false
+    deleteMsg: true
+    replyToUser: false
+  - command: "test2"
+    response: "This is a test!"
+    Embed: false
+    deleteMsg: true
+    replyToUser: false
+  - command: "test3"
+    response: "This is a test!"
+    Embed: false
+    deleteMsg: true
+    replyToUser: false
+
+AutoResponse:
+  Enabled: true
+  OnlyInTickets: false
+  ConfidenceThreshold: 0.7
+  Responses:
+    "What is the server IP":
+      Message: "The server IP is 123.123.123.123. You can use it to connect to our server!"
+      Type: "EMBED"
+    "How can I reset my password":
+      Message: "To reset your password, please visit our password recovery page: https://example.com/reset-password."
+      Type: "TEXT"
+    "Where can I get support":
+      Message: "You can create a ticket in this server by typing `/ticket` or visit our support site: https://example.com/support."
+      Type: "EMBED"
+
+TotalTickets:
+  Enabled: false
+  ChannelID: "CHANNEL_ID"
+  ChannelName: "Total Tickets: {total-tickets}"
+
+OpenTickets:
+  Enabled: false
+  ChannelID: "CHANNEL_ID"
+  ChannelName: "Open Tickets: {open-tickets}"
+
+AverageRating:
+  Enabled: false
+  ChannelID: "CHANNEL_ID"
+  ChannelName: "Rating: ⭐{average-rating}/5.0"
+
+AverageCompletion:
+  Enabled: false
+  ChannelID: "CHANNEL_ID"
+  ChannelName: "Avg complet: {average-completion}"
+
+AverageResponse:
+  Enabled: false
+  ChannelID: "CHANNEL_ID"
+  ChannelName: "Avg complet: {average-response}"
+
+MemberCount:
+  Enabled: false
+  ChannelID: "CHANNEL_ID"
+  ChannelName: "Member Count: {member-count}"
+
+Locale:
+  NoPermsMessage: "Sorry, you don't have permissions to use this command!"
+  RoleBlacklistedTitle: "Blacklisted"
+  RoleBlacklistedMsg: "Your role is blacklisted from creating tickets!"
+  AlreadyOpenTitle: "Ticket Already Open"
+  AlreadyOpenMsg: "You may only have **{max} ticket(s)** open at a time."
+  CloseTicketButton: "Close Ticket"
+  ticketCreatedTitle: "Ticket Created"
+  ticketCreatedMsg: "Your ticket has been created in"
+  deletingTicketMsg: "Deleting ticket in {time} seconds"
+  PayPalInvoiceMsg: "Please click the button below to pay!"
+  PayPalUser: "User:"
+  PayPalPrice: "Price:"
+  PayPalService: "Service:"
+  PayPalPayInvoice: "Pay Invoice"
+  PayPalLogTitle: "Ticket Logs | PayPal Invoice"
+  NotInTicketChannel: "You're not in a ticket channel!"
+  ticketUserAdd: "Added **{user} ({username})** to the ticket."
+  ticketUserRemove: "Removed **{user} ({username})** from the ticket."
+  ticketRenamed: "This ticket has been renamed to **{newName}**!"
+  userAddTitle: "Ticket Logs | User Added"
+  userRemoveTitle: "Ticket Logs | User Removed"
+  ticketCloseTitle: "Ticket Logs | Ticket Closed"
+  ticketRenameTitle: "Ticket Logs | Ticket Renamed"
+  logsExecutor: "Executor"
+  logsTicket: "Ticket"
+  logsUser: "User"
+  logsTicketAuthor: "Ticket Creator"
+  logsClosedBy: "Closed by"
+  logsDeletedBy: "Deleted by"
+  restrictTicketClose: "You are not allowed to close this ticket!"
+  ticketPinned: "📌 This ticket has been pinned!"
+  ticketAlreadyPinned: "This ticket is already pinned!"
+  suggestionSubmit: "Your suggestion has been submitted, Thank you!"
+  suggestionTitle: "Suggestion"
+  suggestionStatsTitle: "Suggestions"
+  suggestionsTotal: "Total Suggestions:"
+  suggestionsTotalUpvotes: "Total Upvotes:"
+  suggestionsTotalDownvotes: "Total Downvotes:"
+  suggestionInformation: "Information"
+  suggestionUpvotes: "Upvotes:"
+  suggestionDownvotes: "Downvotes:"
+  suggestionFrom: "From:"
+  suggestionStatus: "Status:"
+  newSuggestionTitle: "💡 New Suggestion"
+  suggestionVoteResetTitle: "Vote Reset"
+  suggestionVoteReset: "Your vote on [this]({link}) suggestion has been reset!"
+  suggestionNoVoteTitle: "No Vote"
+  suggestionNoVote: "You haven't voted for [this]({link}) suggestion!"
+  suggestionDownvotedTitle: "Suggestion Downvoted"
+  suggestionDownvoted: "You successfully downvoted [this]({link}) suggestion!"
+  suggestionAlreadyVotedTitle: "Already Voted"
+  suggestionAlreadyVoted: "You have already voted on [this]({link}) suggestion! You can press the Reset Vote button to change your vote."
+  suggestionUpvotedTitle: "Suggestion Upvoted"
+  suggestionUpvoted: "You successfully upvoted [this]({link}) suggestion!"
+  suggestionAcceptedTitle: "Suggestion Accepted"
+  suggestionAccepted: "You successfully accepted [this]({link}) suggestion!"
+  suggestionDeniedTitle: "Suggestion Denied"
+  suggestionDenied: "You successfully denied [this]({link}) suggestion!"
+  suggestionNoPerms: "You are not allowed to accept or deny suggestions!"
+  suggestionCantVoteTitle: "Can't vote"
+  suggestionCantVote: "You can't vote for [this]({link}) suggestion because it has already been accepted or denied!"
+  cryptoTitle: "Crypto Payment"
+  cryptoMessage: "Scan the QR Code below or pay to the below address with the exact amount"
+  cryptoLogTitle: "Ticket Logs | Crypto Payment"
+  cryptoLogAddress: "Address"
+  restrictTicketClaim: "You are not allowed to claim this ticket!"
+  claimTicketButton: "Claim"
+  unclaimTicketButton: "Unclaim"
+  ticketClaimedBy: "Claimed by"
+  ticketUnClaimedBy: "Unclaimed by"
+  ticketClaimedTitle: "Ticket Claimed"
+  ticketUnClaimedTitle: "Ticket Unclaimed"
+  ticketNotClaimed: "This ticket has not been claimed!"
+  ticketClaimed: "This ticket has been claimed by {user}\nThey will be assisting you shortly!"
+  ticketUnClaimed: "This ticket has been unclaimed by {user}"
+  ticketDidntClaim: "You did not claim this ticket, Only the user that claimed this ticket can unclaim it! ({user})"
+  ticketClaimedLog: "Ticket Logs | Ticket Claimed"
+  ticketUnClaimedLog: "Ticket Logs | Ticket Unclaimed"
+  claimTicketMsg: "You successfully claimed this ticket!"
+  unclaimTicketMsg: "You successfully unclaimed this ticket!"
+  totalMessagesLog: "Total Messages:"
+  totalTickets: "Total Tickets:"
+  openTickets: "Open Tickets:"
+  totalClaims: "Total Claims:"
+  guildStatistics: "Guild Statistics"
+  statsTickets: "Tickets"
+  alreadyBlacklisted: "{user} is already blacklisted!"
+  successfullyBlacklisted: "{user} has been successfully **blacklisted** from creating tickets!"
+  notBlacklisted: "{user} is not blacklisted!"
+  successfullyUnblacklisted: "{user} has been successfully **unblacklisted** from creating tickets!"
+  userBlacklistedTitle: "Blacklisted"
+  userBlacklistedMsg: "You are blacklisted from creating tickets!"
+  ticketInformationCloseDM: "• Ticket Information"
+  categoryCloseDM: "Category:"
+  claimedByCloseDM: "Claimed by:"
+  ticketClosedCloseDM: "Ticket Closed"
+  notClaimedCloseDM: "Not claimed"
+  ticketRating: "Ticket Rating"
+  totalReviews: "Total Reviews:"
+  averageRating: "Average Rating:"
+  cooldownEmbedMsgTitle: "Cooldown"
+  cooldownEmbedMsg: "You have to wait {time} before creating another ticket!"
+  selectCategory: "Select a category..."
+  selectReview: "Select a review..."
+  explainWhyRating: "Please explain why you are giving this rating"
+  ratingsStats: "Reviews"
+  cryptoQRCode: "QR Code"
+  userLeftTitle: "User Left"
+  userLeftDescription: "The user that created this ticket has left the server **({username})**"
+  reOpenButton: "Re-Open"
+  transcriptButton: "Transcript"
+  deleteTicketButton: "Delete"
+  ticketClosedBy: "This ticket was closed by {user} ({username})"
+  ticketReOpenedBy: "This ticket has been re-opened by {user} ({username})"
+  ticketTranscriptCategory: "Category"
+  ticketTranscript: "Ticket Transcript"
+  ticketName: "Ticket Name"
+  transcriptSaved: "Transcript saved to {channel}"
+  transcriptSavedBy: "Saved by {user}"
+  notAllowedTranscript: "You are not allowed to create a transcript!"
+  notAllowedDelete: "You are not allowed to delete this ticket!"
+  StripeInvoiceTitle: "Stripe Invoice"
+  StripeLogTitle: "Ticket Logs | Stripe Invoice"
+  ticketForceDeleted: "Ticket Force Deleted"
+  reason: "Reason"
+  ticketClosedByReason: "This ticket was closed by {user} ({username})\n\n**Reason:**\n{reason}"
+  successReason: "Successfully set reason for ticket closure!"
+  requiredRoleMissing: "You don't have the required role to open a ticket in this category!"
+  requiredRoleTitle: "Role Required"
+  notAnswered: "Not answered"
+  answeringQuestionsSuccess: "Thank you for answering the questions!"
+  dmTranscriptField: "• Transcript"
+  dmTranscriptClickhere: "Click here"
+  viewTranscriptButton: "View Transcript"
+  averageCompletionTime: "Avg. Completion Time:"
+  averageResponseTime: "Avg. Response Time:"
+  whyCloseTicket: "Why are you closing this ticket?"
+  ticketCloseReasonTitle: "Ticket Close Reason"
+
+HelpCommand:
+  EmbedColor: ""
+  FooterTimestamp: true
+  GuildIcon: true
+  Title: "{botName}'s Commands List"
+  GeneralCategory:
+    Name: "👤 | General —"
+    ShowCount: true
+  TicketCategory:
+    Name: "🎫 | Ticket —"
+    ShowCount: true
+  UtilityCategory:
+    Name: "🛠️ | Utility —"
+    ShowCount: true
+  FooterMsg: "{guildName}"
+  FooterIcon: ""
+
+ButtonEmojis:
+  deleteTicket: "⛔"
+  reOpenTicket: "🔓"
+  createTranscript: "📜"
+  closeTicket: "🔒"
+  ticketCreated: "🎫"
+  ticketClaim: "👋"
+
+ButtonColors:
+  deleteTicket: "Secondary"
+  reOpenTicket: "Secondary"
+  createTranscript: "Secondary"
+  closeTicket: "Danger"
+  ticketClaim: "Success"
+  ticketUnclaim: "Primary"
+  ticketConfirmClosure: "Success"
+  ticketCancelClosure: "Danger"
+
+cleanUpData:
+  tickets:
+    enabled: false
+    time: 12
+  reviews:
+    enabled: false
+    time: 12

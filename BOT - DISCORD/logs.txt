@@ -1,0 +1,886 @@
+
+
+[10/14/2025, 2:28:09 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 2:29:40 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 2:29:47 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 2:40:34 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 2:40:37 AM] [CONFIG ERROR(S)] 
+TicketSettings.LogsChannelID is not a valid channel!
+ TicketButton1.TicketCategoryID is not a valid category!
+ TicketButton2.TicketCategoryID is not a valid category!
+ TicketButton3.TicketCategoryID is not a valid category!
+ TicketButton4.TicketCategoryID is not a valid category!
+ TicketButton5.TicketCategoryID is not a valid category!
+ TicketButton1.SupportRoles is not a valid role!
+ TicketButton2.SupportRoles is not a valid role!
+ TicketButton3.SupportRoles is not a valid role!
+ TicketButton4.SupportRoles is not a valid role!
+ TicketButton5.SupportRoles is not a valid role!
+
+[10/14/2025, 2:40:37 AM] [READY] Bot is now ready!
+
+[10/14/2025, 2:59:53 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 2:59:56 AM] [READY] Bot is now ready!
+
+[10/14/2025, 2:59:56 AM] [CONFIG ERROR(S)] 
+TicketButton2.TicketCategoryID is not a valid category!
+ TicketButton3.TicketCategoryID is not a valid category!
+ TicketButton4.TicketCategoryID is not a valid category!
+ TicketButton5.TicketCategoryID is not a valid category!
+ TicketButton2.SupportRoles is not a valid role!
+ TicketButton3.SupportRoles is not a valid role!
+ TicketButton4.SupportRoles is not a valid role!
+ TicketButton5.SupportRoles is not a valid role!
+
+[10/14/2025, 3:02:50 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 3:02:54 AM] [CONFIG ERROR(S)] 
+TicketButton3.TicketCategoryID is not a valid category!
+
+[10/14/2025, 3:02:54 AM] [READY] Bot is now ready!
+
+[10/14/2025, 3:03:25 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 3:03:29 AM] [READY] Bot is now ready!
+
+[10/14/2025, 3:04:46 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 3:04:54 AM] [READY] Bot is now ready!
+
+[10/14/2025, 3:09:24 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 3:09:28 AM] [READY] Bot is now ready!
+
+[10/14/2025, 3:09:35 AM] [SLASH COMMAND] Command: test, User: graniena
+
+[10/14/2025, 3:09:46 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/14/2025, 3:09:48 AM] [INTERACTION] categorySelect
+
+[10/14/2025, 3:10:13 AM] [INTERACTION] questionModal-1-1760404188769
+
+[10/14/2025, 3:10:13 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/14/2025, 3:10:46 AM] [INTERACTION] closeTicket
+
+[10/14/2025, 3:10:47 AM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/14/2025, 3:11:32 AM] [SLASH COMMAND] Command: calculate, User: graniena
+
+[10/14/2025, 3:12:42 AM] [SLASH COMMAND] Command: test, User: graniena
+
+[10/14/2025, 3:17:02 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 3:17:10 AM] [READY] Bot is now ready!
+
+[10/14/2025, 3:18:33 AM] [INTERACTION] categorySelect
+
+[10/14/2025, 3:22:39 AM] [INTERACTION] categorySelect
+
+[10/14/2025, 5:46:42 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 5:46:46 AM] [READY] Bot is now ready!
+
+[10/14/2025, 5:51:01 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 5:51:08 AM] [READY] Bot is now ready!
+
+[10/14/2025, 5:51:43 AM] [INTERACTION] categorySelect
+
+[10/14/2025, 5:51:48 AM] [INTERACTION] categorySelect
+
+[10/14/2025, 5:51:52 AM] [INTERACTION] categorySelect
+
+[10/14/2025, 5:52:37 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 5:52:43 AM] [READY] Bot is now ready!
+
+[10/14/2025, 5:53:32 AM] [INTERACTION] categorySelect
+
+[10/14/2025, 5:54:35 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 5:54:39 AM] [READY] Bot is now ready!
+
+[10/14/2025, 5:54:48 AM] [SLASH COMMAND] Command: alert, User: graniena
+
+[10/14/2025, 5:58:25 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 5:58:31 AM] [READY] Bot is now ready!
+
+[10/14/2025, 5:59:18 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 5:59:22 AM] [READY] Bot is now ready!
+
+[10/14/2025, 5:59:48 AM] [SLASH COMMAND] Command: verify, User: graniena
+
+[10/14/2025, 6:10:03 AM] [SLASH COMMAND] Command: verify, User: graniena
+
+[10/14/2025, 6:15:38 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 6:15:42 AM] [READY] Bot is now ready!
+
+[10/14/2025, 6:16:20 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 6:16:24 AM] [READY] Bot is now ready!
+
+[10/14/2025, 6:16:29 AM] [SLASH COMMAND] Command: verify, User: graniena
+
+[10/14/2025, 6:23:28 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 6:23:34 AM] [READY] Bot is now ready!
+
+[10/14/2025, 6:26:27 AM] [SLASH COMMAND] Command: verify, User: graniena
+
+[10/14/2025, 2:41:55 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/14/2025, 2:42:00 PM] [READY] Bot is now ready!
+
+[10/14/2025, 2:42:04 PM] [SLASH COMMAND] Command: verify, User: graniena
+
+[10/16/2025, 3:30:28 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:30:30 PM] [unhandledRejection] [v2.2.3]
+Error: Invalid string length
+    at Object.run (/home/container/node_modules/@sapphire/shapeshift/src/constraints/StringConstraints.ts:51:1)
+    at /home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2
+    at Array.reduce (<anonymous>)
+    at _StringValidator.parse (/home/container/node_modules/@sapphire/shapeshift/src/validators/BaseValidator.ts:126:2)
+    at ModalBuilder.setTitle (/home/container/node_modules/@discordjs/builders/src/interactions/modals/Modal.ts:56:36)
+    at Object.<anonymous> (/home/container/events/interactionCreate.js:41:8)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at node:internal/modules/cjs/loader:1893:10
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/ts-node/src/index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+
+[10/16/2025, 3:30:32 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:31:00 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:31:05 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:31:10 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:31:18 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 3:32:52 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:32:56 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:33:12 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:33:55 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:33:59 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:34:03 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:34:41 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:34:45 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:34:52 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:40:21 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:40:25 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:41:16 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:41:40 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:41:44 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:41:50 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:46:31 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:46:35 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:46:47 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:48:25 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 3:49:55 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:49:59 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:50:03 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:50:05 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 3:50:48 PM] [INTERACTION] questionModal-1-1760622605209
+
+[10/16/2025, 3:50:49 PM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/16/2025, 3:51:41 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:51:46 PM] [READY] Bot is now ready!
+
+[10/16/2025, 3:51:47 PM] [INTERACTION] closeTicket
+
+[10/16/2025, 3:51:48 PM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/16/2025, 3:55:31 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 3:55:37 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 3:56:28 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 3:56:32 PM] [READY] Bot is now ready!
+
+[10/16/2025, 4:02:28 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 4:02:32 PM] [READY] Bot is now ready!
+
+[10/16/2025, 4:02:39 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 4:02:40 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 4:02:43 PM] [INTERACTION] questionModal-1-1760623360448
+
+[10/16/2025, 4:02:45 PM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/16/2025, 4:02:49 PM] [INTERACTION] closeTicket
+
+[10/16/2025, 4:02:50 PM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/16/2025, 4:18:13 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 4:18:17 PM] [READY] Bot is now ready!
+
+[10/16/2025, 7:30:00 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 7:30:04 PM] [READY] Bot is now ready!
+
+[10/16/2025, 7:30:16 PM] [SLASH COMMAND] Command: verify, User: graniena
+
+[10/16/2025, 7:30:45 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 7:30:51 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 7:30:55 PM] [INTERACTION] questionModal-1-1760635851037
+
+[10/16/2025, 7:30:56 PM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/16/2025, 7:30:59 PM] [INTERACTION] closeTicket
+
+[10/16/2025, 7:30:59 PM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/16/2025, 7:41:06 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 7:41:10 PM] [READY] Bot is now ready!
+
+[10/16/2025, 7:54:23 PM] [INTERACTION] closeTicket
+
+[10/16/2025, 7:54:27 PM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/16/2025, 8:05:51 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 8:05:55 PM] [READY] Bot is now ready!
+
+[10/16/2025, 8:06:32 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 8:06:39 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 8:06:43 PM] [INTERACTION] questionModal-1-1760637999791
+
+[10/16/2025, 8:06:46 PM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/16/2025, 8:11:16 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 8:11:18 PM] [unhandledRejection] [v2.2.3]
+/home/container/events/ticketCreate.js:78
+        .setImage("https://cdn.discordapp.com/attachments/1341626525476327454/1428445152434983052/zamowienie.gif?ex=68f286b7&is=68f13537&hm=5addfa2bedf26a3e2bc855d8f0eeb2963759af2e0cd6f58a2ed64636ffdb774e&") 
+        ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at node:internal/modules/cjs/loader:1893:10
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/ts-node/src/index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+
+[10/16/2025, 8:11:20 PM] [READY] Bot is now ready!
+
+[10/16/2025, 8:12:09 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 8:12:12 PM] [unhandledRejection] [v2.2.3]
+/home/container/events/ticketCreate.js:83
+                setImage("https://cdn.discordapp.com/attachments/1341626525476327454/1428445152434983052/zamowienie.gif?ex=68f286b7&is=68f13537&hm=5addfa2bedf26a3e2bc855d8f0eeb2963759af2e0cd6f58a2ed64636ffdb774e&") 
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at node:internal/modules/cjs/loader:1893:10
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/ts-node/src/index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+
+[10/16/2025, 8:12:13 PM] [READY] Bot is now ready!
+
+[10/16/2025, 8:13:27 PM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/16/2025, 8:13:32 PM] [READY] Bot is now ready!
+
+[10/16/2025, 8:13:42 PM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/16/2025, 8:13:44 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 8:13:50 PM] [INTERACTION] questionModal-1-1760638424094
+
+[10/16/2025, 8:13:51 PM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/16/2025, 8:13:56 PM] [INTERACTION] closeTicket
+
+[10/16/2025, 8:13:56 PM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/16/2025, 8:14:03 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 8:14:08 PM] [INTERACTION] questionModal-1-1760638443364
+
+[10/16/2025, 8:14:08 PM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/16/2025, 8:15:38 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 8:15:40 PM] [INTERACTION] categorySelect
+
+[10/16/2025, 8:15:44 PM] [INTERACTION] questionModal-2-1760638540901
+
+[10/16/2025, 8:15:45 PM] [TICKET CREATION] Button: 2, User: graniena
+
+[10/16/2025, 8:15:53 PM] [INTERACTION] closeTicket
+
+[10/16/2025, 8:15:56 PM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/17/2025, 1:58:02 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 1:58:02 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 1:58:15 AM] [INTERACTION] questionModal-1-1760659082362
+
+[10/17/2025, 1:58:16 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 2:02:21 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 2:02:25 AM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/17/2025, 2:11:25 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 2:11:29 AM] [READY] Bot is now ready!
+
+[10/17/2025, 2:11:40 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 2:11:40 AM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/17/2025, 2:37:38 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 2:37:43 AM] [READY] Bot is now ready!
+
+[10/17/2025, 2:42:35 AM] [SLASH COMMAND] Command: alert, User: graniena
+
+[10/17/2025, 2:42:39 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 2:42:40 AM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/17/2025, 3:12:26 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:12:30 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:12:41 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:12:42 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 3:12:46 AM] [INTERACTION] questionModal-1-1760663562474
+
+[10/17/2025, 3:12:46 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 3:12:53 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 3:12:58 AM] [INTERACTION] questionModal-1-1760663573891
+
+[10/17/2025, 3:12:58 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 3:13:35 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 3:13:36 AM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/17/2025, 3:14:12 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:14:24 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:14:28 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:14:30 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 3:14:33 AM] [INTERACTION] questionModal-1-1760663670573
+
+[10/17/2025, 3:14:35 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 3:14:38 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 3:14:39 AM] [unhandledRejection] [v2.2.3]
+Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, key, ref, props, _owner, _store}). If you meant to render a collection of children, use an array instead.
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6073:17)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at finishFunctionComponent (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4841:13)
+    at renderElement (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5639:15)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5991:31)
+    at renderNodeDestructive (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:5941:11)
+    at retryNode (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6058:15)
+    at performWork (/home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:6835:17)
+    at /home/container/node_modules/discord-html-transcripts/node_modules/react-dom/cjs/react-dom-server.node.development.js:4473:22
+    at node:internal/process/task_queues:151:7
+
+[10/17/2025, 3:32:48 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:32:53 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:34:17 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:39:04 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:39:08 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:39:18 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:39:25 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 3:39:30 AM] [INTERACTION] questionModal-1-1760665165291
+
+[10/17/2025, 3:39:30 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 3:39:34 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 3:39:35 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[10/17/2025, 3:39:45 AM] [INTERACTION] ratingSelect
+
+[10/17/2025, 3:46:29 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:46:33 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:46:46 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:48:20 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:48:23 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:48:32 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:48:38 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 3:48:48 AM] [INTERACTION] questionModal-1-1760665718383
+
+[10/17/2025, 3:48:48 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 3:48:53 AM] [INTERACTION] ticketclaim
+
+[10/17/2025, 3:48:54 AM] [TICKET CLAIM] User: graniena
+
+[10/17/2025, 3:48:57 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 3:48:59 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[10/17/2025, 3:49:03 AM] [INTERACTION] ratingSelect
+
+[10/17/2025, 3:49:12 AM] [INTERACTION] modal-whyRating
+
+[10/17/2025, 3:55:03 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:55:07 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:55:16 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:55:18 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 3:55:22 AM] [INTERACTION] questionModal-1-1760666118899
+
+[10/17/2025, 3:55:22 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 3:55:28 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 3:55:29 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[10/17/2025, 3:55:33 AM] [INTERACTION] ratingSelect
+
+[10/17/2025, 3:55:38 AM] [INTERACTION] modal-whyRating
+
+[10/17/2025, 3:59:20 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 3:59:24 AM] [READY] Bot is now ready!
+
+[10/17/2025, 3:59:28 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 3:59:29 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 3:59:33 AM] [INTERACTION] questionModal-1-1760666369823
+
+[10/17/2025, 3:59:35 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 3:59:38 AM] [INTERACTION] ticketclaim
+
+[10/17/2025, 3:59:38 AM] [TICKET CLAIM] User: graniena
+
+[10/17/2025, 3:59:41 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 3:59:42 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[10/17/2025, 3:59:46 AM] [INTERACTION] ratingSelect
+
+[10/17/2025, 4:00:02 AM] [INTERACTION] modal-whyRating
+
+[10/17/2025, 4:00:30 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 4:00:33 AM] [INTERACTION] questionModal-1-1760666430026
+
+[10/17/2025, 4:00:35 AM] [TICKET CREATION] Button: 1, User: graniena
+
+[10/17/2025, 4:00:38 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 4:00:39 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[10/17/2025, 4:00:43 AM] [INTERACTION] ratingSelect
+
+[10/17/2025, 4:00:48 AM] [INTERACTION] modal-whyRating
+
+[10/17/2025, 8:59:51 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 8:59:55 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:00:36 AM] [SLASH COMMAND] Command: regulamin, User: graniena
+
+[10/17/2025, 9:05:53 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:05:57 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:06:56 AM] [SLASH COMMAND] Command: regulamin, User: graniena
+
+[10/17/2025, 9:15:39 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:15:43 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:15:50 AM] [SLASH COMMAND] Command: regulamin, User: graniena
+
+[10/17/2025, 9:38:51 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:38:54 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:43:35 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:43:38 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:43:57 AM] [SLASH COMMAND] Command: panel, User: graniena
+
+[10/17/2025, 9:44:15 AM] [INTERACTION] categorySelect
+
+[10/17/2025, 9:44:34 AM] [INTERACTION] questionModal-1-1760687055473
+
+[10/17/2025, 9:44:35 AM] [TICKET CREATION] Button: 1, User: lisqu07
+
+[10/17/2025, 9:45:17 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 9:45:26 AM] [INTERACTION] closeTicket
+
+[10/17/2025, 9:45:27 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[10/17/2025, 9:45:41 AM] [INTERACTION] ratingSelect
+
+[10/17/2025, 9:45:51 AM] [INTERACTION] modal-whyRating
+
+[10/17/2025, 9:48:32 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:48:36 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:50:28 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:50:32 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:52:03 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:52:07 AM] [READY] Bot is now ready!
+
+[10/17/2025, 9:59:50 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 9:59:53 AM] [READY] Bot is now ready!
+
+[10/17/2025, 10:02:56 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 10:03:00 AM] [READY] Bot is now ready!
+
+[10/17/2025, 10:07:02 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 10:07:06 AM] [READY] Bot is now ready!
+
+[10/17/2025, 10:07:51 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 10:07:55 AM] [READY] Bot is now ready!
+
+[10/17/2025, 10:14:09 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 10:14:12 AM] [READY] Bot is now ready!
+
+[10/17/2025, 10:14:34 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v24.10.0
+Bot Version: 2.2.3
+
+[10/17/2025, 10:14:36 AM] [READY] Bot is now ready!
