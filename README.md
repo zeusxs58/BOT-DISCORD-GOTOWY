@@ -2,6 +2,7 @@
 
 Lekki, modułowy bot na **Discord.js v14** z gotowym systemem **ticketów**, dodatkami (join/leave, verify, regulamin), **slash-komendami**, menu kontekstowym oraz panelami. **Szybki start, prosta konfiguracja w plikach `.yml` i modele Mongoose.**  
 > Wymaga bazy **MongoDB** (lokalnie lub w chmurze, np. Atlas).
+> Start Bota to start node.js
 
 ---
 
@@ -44,3 +45,28 @@ Lekki, modułowy bot na **Discord.js v14** z gotowym systemem **ticketów**, dod
    git clone <URL_REPO>
    cd BOT-DISCORD
    npm install
+
+/BOT-DISCORD
+├─ addons/
+│  ├─ example/…
+│  ├─ JoinLeaveMessages/{config.yml,joinleave.js}
+│  ├─ Regulamin/regulamin.js
+│  └─ verify/verify.js
+├─ events/
+│  channelDelete.js guildCreate.js guildMemberRemove.js
+│  interactionCreate.js messageCreate.js messageDelete.js
+│  ready.js sendUserDM.js ticketClaim.js ticketClose.js ticketCreate.js
+├─ models/
+│  blacklistedUsersModel.js dashboardModel.js guildModel.js
+│  ticketModel.js ticketPanelModel.js suggestionModel.js reviewsModel.js
+│  paypalInvoicesModel.js stripeInvoicesModel.js
+├─ slashCommands/
+│  ├─ General/{help.js,ping.js,stats.js,suggest.js}
+│  ├─ Tickets/{panel.js,add.js,remove.js,rename.js,close.js,priority.js,alert.js,delete.js,pin.js}
+│  ├─ Utility/{blacklist.js,calculate.js,crypto.js,invoice.js}
+│  └─ contextMenu/{suggestAccept.js,suggestDeny.js}
+├─ config.yml
+├─ commands.yml
+├─ index.js
+├─ utils.js
+└─ package.json
