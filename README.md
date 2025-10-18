@@ -45,7 +45,7 @@ Lekki, modułowy bot na **Discord.js v14** z gotowym systemem **ticketów**, dod
    git clone <URL_REPO>
    cd BOT-DISCORD
    npm install
-
+ ```bash
 /BOT-DISCORD
 ├─ addons/
 │  ├─ example/…
